@@ -30,7 +30,7 @@ const App = () => {
 		<>
 			<div>
 				<div className="d-flex justify-content-center">
-					<span className="title">todos</span>
+					<span className="title">Task List</span>
 				</div>
 
 				<div className="task d-flex justify-content-center">
@@ -55,12 +55,13 @@ const App = () => {
 				<div className="d-flex justify-content-center">
 					<div className="footer d-flex align-items-center">
 						<span className="ms-3">{ taskList.length == 1 ? `${taskList.length} item left` :
-						taskList.length == 0 ? "No tasks" :  
-						`${taskList.length} items left` } 
+							taskList.length == 0 ? "No tasks" :  
+							`${taskList.length} items left` } 
 						</span>
 					</div>
 					<div className="footer foot-2"></div>
 					<div className="footer foot-3"></div>
+					<div className="footer foot-4"></div>
 				</div>
 			</div>
 		</>

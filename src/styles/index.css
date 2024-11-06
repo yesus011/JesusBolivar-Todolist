@@ -49,6 +49,13 @@ body {
     width: 590px;
     z-index: 1;
 }
+
+.foot-4 {
+    height: 60px;
+    width: 590px;
+    z-index: 1;
+}
+
 input:focus {
     border: none;
     outline: none;
