@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(224, 224, 224);
+    background-color: white;
     display: flex;
     justify-content: center;
 }
@@ -8,23 +8,23 @@ body {
     position: relative;
     height: 60px;
     width: 600px;
-    background-color: rgb(255, 255, 255);
-    border: 1px solid rgb(187, 187, 187);
+    background-color: white;
+    border: 1px solid rgb(224, 204, 204);
     border-top: none;
-    border-bottom: 1px solid rgb(240, 240, 240);
+    border-bottom: 1px solid rgb(223, 214, 214);
     z-index: 3;
     box-shadow: 0 4px 17px 0px rgba(159, 158, 158, 0.2);
-    color: rgb(141, 140, 140);
+    color: rgb(141, 125, 125);
     font-weight: 50;
 }
 .task > p {
-    margin-left: 77px;
+    margin-left: 10px;
     margin-bottom: 0;
 }
 .title {
     font-size: 100px;
     font-weight: 20;
-    color: rgba(239, 138, 138, 0.501)
+    color: rgba(192, 5, 5, 0.501)
 }
 .footer  { 
     position: absolute;
@@ -33,21 +33,21 @@ body {
     background-color: rgb(255, 255, 255);
     border: 1px solid rgb(187, 187, 187);
     border-top: none;
-    z-index: 3;
+    z-index: 4;
     box-shadow: 0 4px 17px 0px rgba(159, 158, 158, 0.2);
     color: rgb(198, 197, 197);
-    font-size: 14px;
+    font-size: 18px;
 }
 .foot-2 {
     height: 55px;
     width: 595px;
-    z-index: 2;
+    z-index: 3;
     
 }
 .foot-3 {
     height: 60px;
     width: 590px;
-    z-index: 1;
+    z-index: 2;
 }
 
 .foot-4 {
@@ -60,11 +60,11 @@ input:focus {
     border: none;
     outline: none;
     color: rgb(141, 140, 140);
-    font-weight: 50;
+    font-weight: 30;
 }
 input {
-    color: rgb(141, 140, 140);
-    font-weight: 50;
+    color: rgb(194, 188, 188);
+    font-weight: 30;
 }
 .task span {
     position: absolute;

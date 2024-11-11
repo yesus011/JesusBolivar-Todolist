@@ -1,6 +1,6 @@
 import React from "react";
 
-function TodoList({ value, handleDelete, id }) {
+function TodoList({ handleDelete, value,  id }) {
   return (
     <>
       <div className="task d-flex align-items-center justify-content-between">
